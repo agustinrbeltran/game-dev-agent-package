@@ -1,0 +1,25 @@
+name: game-dev-agent-package
+version: 1.0.0
+description: >-
+  A Game Developer role for AI coding agents — Unity & Unreal Engine
+  architecture, gameplay, physics, game AI, shaders, and multiplayer
+  networking, held to a 60+ FPS (<=16 ms/frame) performance budget.
+author: Agustin Renteria Beltran
+license: MIT
+
+# Which agent platforms to deploy to.
+# Resolution order: --target flag > this field > auto-detect from filesystem.
+# Accepted values: vscode, agents, copilot, claude, cursor, opencode, codex,
+# gemini, antigravity, windsurf, kiro, agent-skills, all
+targets:
+  - claude
+
+dependencies:
+  apm:
+    # Upstream Game Developer skill: Unity/Unreal patterns, ECS, performance,
+    # and networking references. Add "#<tag-or-branch>" to pin a version.
+    - Jeffallan/claude-skills/skills/game-developer
+  mcp: []
+
+includes: auto
+scripts: {}
