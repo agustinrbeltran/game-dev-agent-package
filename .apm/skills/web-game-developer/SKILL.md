@@ -120,6 +120,9 @@ const hit = (a: Box, b: Box) =>
   a.y < b.y + b.h && a.y + a.h > b.y;
 ```
 
-Spin up a project in seconds — `npm create vite@latest <name> -- --template vanilla-ts`,
-then lay down the state/update/render skeleton above. Follow
-`references/interview-playbook.md` for timeboxing and the verify-by-running flow.
+Spin up a project in seconds: copy the bundled `vite-ts-game` starter when it's present
+— `templates/vite-ts-game/` in this repo, or
+`apm_modules/*/game-dev-agent-package/templates/vite-ts-game/` when installed as a
+dependency — else `npm create vite@latest <name> -- --template vanilla-ts`. Then lay
+down the state/update/render skeleton above. Follow `references/interview-playbook.md`
+for timeboxing and the verify-by-running flow.

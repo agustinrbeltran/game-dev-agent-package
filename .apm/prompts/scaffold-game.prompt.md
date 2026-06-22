@@ -11,11 +11,15 @@ allowed-tools: [Read, Write, Edit, Grep, Glob, Bash]
 Stand up a runnable **${input:game}** skeleton fast. Kind: ${input:kind} (infer if
 unspecified: real-time motion ⇒ canvas; board/turn-based ⇒ dom).
 
-1. **Base** — Scaffold a Vite + TypeScript project (portable, works in any repo):
-   `npm create vite@latest <name> -- --template vanilla-ts`, then `cd <name> && npm
-   install`. Fast path: if this package's `templates/vite-ts-game/` starter is present
-   in the working tree, copy it instead. For a no-network fallback, a single
-   `index.html` with a `<script type="module">` works.
+1. **Base** — Use the bundled `vite-ts-game` starter when it's on hand, else scaffold
+   fresh. Locate it with
+   `ls -d templates/vite-ts-game apm_modules/*/game-dev-agent-package/templates/vite-ts-game 2>/dev/null`
+   — it sits at `templates/vite-ts-game/` in this repo, or under
+   `apm_modules/<author>/game-dev-agent-package/templates/` when this package is
+   installed as a dependency. Copy whichever path exists. If neither does, scaffold
+   portably: `npm create vite@latest <name> -- --template vanilla-ts`, then
+   `cd <name> && npm install`. For a no-network fallback, a single `index.html` with a
+   `<script type="module">` works.
 2. **Skeleton** — Lay down the four files of the contract:
    - `state.ts` — the State interface + `initState()`.
    - `update.ts` — `update(state, input, dt)`; the rules (start minimal but real).

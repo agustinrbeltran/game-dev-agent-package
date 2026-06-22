@@ -21,7 +21,7 @@ released feature in one place, and verify by running.
 | Prompt | `.apm/prompts/implement-game-feature.prompt.md` | Add one feature, additively, then verify. |
 | Prompt | `.apm/prompts/run-and-verify.prompt.md` | Start the dev server and verify in a real browser (Playwright). |
 | Prompt | `.apm/prompts/web-performance-audit.prompt.md` | Find and fix render-loop jank (60 FPS). |
-| Template | `templates/vite-ts-game/` | Vite + TypeScript starter (repo-local dev convenience — **not** deployed to consumers; the commands scaffold with `npm create vite`). |
+| Template | `templates/vite-ts-game/` | Vite + TypeScript starter. Ships with the package — vendored into a consumer's `apm_modules/<author>/game-dev-agent-package/templates/`; the scaffold command copies it when found, else falls back to `npm create vite`. |
 | Playbook | `.apm/skills/web-game-developer/references/interview-playbook.md` | Timeboxing, the DOM-vs-Canvas decision, feature-drop map, and an English talk-track. |
 
 The skill is **local** (`.apm/skills/web-game-developer/`) and picked up automatically
