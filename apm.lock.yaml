@@ -19,12 +19,12 @@ local_deployed_file_hashes:
   .claude/agents/web-game-developer.md: sha256:5b11cbd740db75be651002593d8f48833402f64a32fcb2d9c7fe973c5a14278d
   .claude/commands/implement-game-feature.md: sha256:474486f47614e3a366f2252904244bee11802b7aa5f3a251a7e4a74268419cd4
   .claude/commands/run-and-verify.md: sha256:62c9d7a9be4b606f61215ac90d8e396ae4af1fad6c878519b4a1686f7cd9f6cc
-  .claude/commands/scaffold-game.md: sha256:b2d58708d35c18335b5797b7d8099f4babb543473d1d880fe5acff2f38a442ba
+  .claude/commands/scaffold-game.md: sha256:1072d067f2cae2ee27499560bf641f6c43a4ec97c630cc0a280b215749de97a8
   .claude/commands/web-performance-audit.md: sha256:19ce87a7f2064c67d3c730a074ae746687fa483fbe20749cc15a5cabe22558da
   .claude/rules/web-game-performance.md: sha256:0b6ae5ffcdc3ec0ebb859b74c9ae3f1deca48b359eb7ea42f92ec8c386ce7993
-  .claude/skills/web-game-developer/SKILL.md: sha256:e24c2ad0c982c65f66f3849bd98630d978d8537b1a5ec3e58cae6c9130fce1a3
+  .claude/skills/web-game-developer/SKILL.md: sha256:b52f3268300bcaa12d2c617b899b581200885ae3334118b48a9343ed1c0e6357
   .claude/skills/web-game-developer/references/architecture-and-feature-flow.md: sha256:938febc48af9101def087b4ab45844d1953449d5be055b940579d626875bf09b
   .claude/skills/web-game-developer/references/canvas-arcade-games.md: sha256:ad56a750746d69318dcba365c2f96545a46036a24b97de01058bb13044b8f510
   .claude/skills/web-game-developer/references/dom-grid-games.md: sha256:bc09f87f4c7656e2f88834ad9074abbd06e712af331d4954a59c1ce3bbd87d72
   .claude/skills/web-game-developer/references/game-loop-and-input.md: sha256:fee448696f3d9551394c6f5898c59d91b26273396df12ee82234eeece8f58d04
-  .claude/skills/web-game-developer/references/interview-playbook.md: sha256:c4e63128303084ba9e56ade22756a450cb1a03eef736684b2bec56b4aca9a237
+  .claude/skills/web-game-developer/references/interview-playbook.md: sha256:fa3a8972ea61cc64bc2d52cf8180a07a6b2d9c5047e3be18f923e173a8f0f267

@@ -5,15 +5,16 @@ interviewer **releases features one at a time** while you talk through it in Eng
 Evaluated on how effectively you use your AI tools to ship correct features fast.
 
 This package is the setup. The `web-game-developer` skill + agent auto-engage on game
-work; the commands and template below remove the boilerplate.
+work; the commands below remove the boilerplate.
 
 ---
 
 ## Before the interview (5 min, the day before)
 
-- [ ] `cd templates/vite-ts-game && npm install` — **warm the npm cache** so an
-      interview-time install is seconds, not minutes.
-- [ ] Run `npm run dev` once; confirm the demo loads at `localhost:5173`.
+- [ ] **Warm the npm cache** so an interview-time install is seconds, not minutes:
+      `npm create vite@latest warmup -- --template vanilla-ts && cd warmup && npm install`.
+      (Working in this repo? `cd templates/vite-ts-game && npm install` does the same.)
+- [ ] Run `npm run dev` once; confirm a Vite + TS app loads at `localhost:5173`.
 - [ ] Confirm the skill is active: in Claude Code, ask "what does the web-game-developer
       skill cover?" — it should reference the loop/grid/canvas/architecture guides.
 - [ ] Skim the sibling references in this skill (game loop & input, DOM/grid, canvas/
@@ -53,7 +54,7 @@ work; the commands and template below remove the boilerplate.
 
 | Command | Use it to |
 |---|---|
-| `/scaffold-game "<game>" "<canvas\|dom>"` | Stand up a runnable skeleton from the template |
+| `/scaffold-game "<game>" "<canvas\|dom>"` | Stand up a runnable Vite + TS skeleton |
 | `/implement-game-feature "<feature>" "<notes>"` | Add one feature, additively, then verify |
 | `/run-and-verify "<what to check>"` | Start the dev server + drive it with Playwright |
 | `/web-performance-audit "<target>"` | Only if a real-time game gets janky |
@@ -103,5 +104,4 @@ render.** If a feature is forcing a rewrite, logic is in the wrong layer.
 
 If `npm`/network fails, go zero-build: one `index.html` with
 `<script type="module" src="main.js">`, write plain JS (no compile), and serve with
-`python3 -m http.server 5173`. Instant reload, nothing to install. (Template README
-has the steps.)
+`python3 -m http.server 5173`. Instant reload, nothing to install.
