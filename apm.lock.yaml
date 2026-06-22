@@ -1,10 +1,11 @@
 lockfile_version: '1'
-generated_at: '2026-06-22T16:32:41.335569+00:00'
+generated_at: '2026-06-22T16:42:23.144488+00:00'
 apm_version: 0.21.0
 dependencies:
 - repo_url: Jeffallan/claude-skills
   host: github.com
   resolved_commit: e8be415bc94d8d6ebddc2fb50e5d03c6e27d4319
+  resolved_ref: e8be415b
   virtual_path: skills/game-developer
   is_virtual: true
   package_type: claude_skill

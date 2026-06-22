@@ -17,8 +17,8 @@ targets:
 dependencies:
   apm:
     # Upstream Game Developer skill: Unity/Unreal patterns, ECS, performance,
-    # and networking references. Add "#<tag-or-branch>" to pin a version.
-    - Jeffallan/claude-skills/skills/game-developer
+    # and networking references. Pinned to a commit to prevent drift.
+    - Jeffallan/claude-skills/skills/game-developer#e8be415b
   mcp: []
 
 includes: auto
