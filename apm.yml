@@ -1,9 +1,10 @@
-name: game-dev-agent-package
-version: 1.0.0
+name: web-game-dev-agent-package
+version: 2.0.0
 description: >-
-  A Game Developer role for AI coding agents — Unity & Unreal Engine
-  architecture, gameplay, physics, game AI, shaders, and multiplayer
-  networking, held to a 60+ FPS (<=16 ms/frame) performance budget.
+  A Web Game Developer role for AI coding agents — fast vanilla-TypeScript
+  browser games on HTML5 Canvas and the DOM, covering grid/turn-based and
+  real-time arcade games. Built for timed, feature-by-feature coding challenges:
+  scaffold fast, add each feature additively, and verify by running.
 author: Agustin Renteria Beltran
 license: MIT
 
@@ -15,10 +16,9 @@ targets:
   - claude
 
 dependencies:
-  apm:
-    # Upstream Game Developer skill: Unity/Unreal patterns, ECS, performance,
-    # and networking references. Pinned to a commit to prevent drift.
-    - Jeffallan/claude-skills/skills/game-developer#e8be415b
+  # The Web Game Developer skill lives under .apm/skills/web-game-developer/ and is
+  # picked up automatically — no dependency entry needed.
+  apm: []
   mcp: []
 
 includes: auto

@@ -1,37 +1,28 @@
 lockfile_version: '1'
-generated_at: '2026-06-22T16:42:23.144488+00:00'
-apm_version: 0.21.0
-dependencies:
-- repo_url: Jeffallan/claude-skills
-  host: github.com
-  resolved_commit: e8be415bc94d8d6ebddc2fb50e5d03c6e27d4319
-  resolved_ref: e8be415b
-  virtual_path: skills/game-developer
-  is_virtual: true
-  package_type: claude_skill
-  deployed_files:
-  - .claude/skills/game-developer
-  - .claude/skills/game-developer/SKILL.md
-  - .claude/skills/game-developer/references/ecs-patterns.md
-  - .claude/skills/game-developer/references/multiplayer-networking.md
-  - .claude/skills/game-developer/references/performance-optimization.md
-  - .claude/skills/game-developer/references/unity-patterns.md
-  - .claude/skills/game-developer/references/unreal-cpp.md
-  deployed_file_hashes:
-    .claude/skills/game-developer/SKILL.md: sha256:89297efd2a6ba43237bd711d41d5d8bc50241954fe535d413bc08a1c345bc176
-    .claude/skills/game-developer/references/ecs-patterns.md: sha256:5ef2de275b32bcf78a215ac09e101e70c06d5bb64e2577dc61fba811950a49c6
-    .claude/skills/game-developer/references/multiplayer-networking.md: sha256:10c22a22749041b99f09a4e365dadbe6e58fc1b56c90407960bb466aa2de8611
-    .claude/skills/game-developer/references/performance-optimization.md: sha256:57ce6a6de9b66f4ab5b2b7bd7349fa6694e5eb641e5a94bcf80e1351ad4fd4ed
-    .claude/skills/game-developer/references/unity-patterns.md: sha256:0f8b0ffada2a9e997c7db40cc472babf30c670514f01441c3dbd2f25a573fefc
-    .claude/skills/game-developer/references/unreal-cpp.md: sha256:b41b68aa1dba6635924a909c4d749ae199bd6ac8fed263598163c9bbbce807e6
-  content_hash: sha256:0138b2d8042f0c56a740a8b46ffc8e5864879846c7e25ef7317f47237fc56cce
+generated_at: '2026-06-22T20:55:09.857359+00:00'
+dependencies: []
 local_deployed_files:
-- .claude/agents/game-developer.md
-- .claude/commands/implement-game-system.md
-- .claude/commands/performance-audit.md
-- .claude/rules/game-performance.md
+- .claude/agents/web-game-developer.md
+- .claude/commands/implement-game-feature.md
+- .claude/commands/run-and-verify.md
+- .claude/commands/scaffold-game.md
+- .claude/commands/web-performance-audit.md
+- .claude/rules/web-game-performance.md
+- .claude/skills/web-game-developer
+- .claude/skills/web-game-developer/SKILL.md
+- .claude/skills/web-game-developer/references/architecture-and-feature-flow.md
+- .claude/skills/web-game-developer/references/canvas-arcade-games.md
+- .claude/skills/web-game-developer/references/dom-grid-games.md
+- .claude/skills/web-game-developer/references/game-loop-and-input.md
 local_deployed_file_hashes:
-  .claude/agents/game-developer.md: sha256:5fd67c2cc2f79e2b7aea29ae85b9976b3b7b12bed4b19d1b1db5eae025c3d1e1
-  .claude/commands/implement-game-system.md: sha256:dc4e021b6a903bcfe6d88db72f9707b6249b12ed9c6b2788a6f0303aa0d975f5
-  .claude/commands/performance-audit.md: sha256:42fd1b8f2fac0426618ace5044b0943abe1dd6e15c285bb67d543ecbc6750566
-  .claude/rules/game-performance.md: sha256:05fd8d8486c7fb7c6b168cb17d56a7c189b6d70deb10ccb670e0605eff74c354
+  .claude/agents/web-game-developer.md: sha256:5b11cbd740db75be651002593d8f48833402f64a32fcb2d9c7fe973c5a14278d
+  .claude/commands/implement-game-feature.md: sha256:474486f47614e3a366f2252904244bee11802b7aa5f3a251a7e4a74268419cd4
+  .claude/commands/run-and-verify.md: sha256:62c9d7a9be4b606f61215ac90d8e396ae4af1fad6c878519b4a1686f7cd9f6cc
+  .claude/commands/scaffold-game.md: sha256:b2d58708d35c18335b5797b7d8099f4babb543473d1d880fe5acff2f38a442ba
+  .claude/commands/web-performance-audit.md: sha256:19ce87a7f2064c67d3c730a074ae746687fa483fbe20749cc15a5cabe22558da
+  .claude/rules/web-game-performance.md: sha256:0b6ae5ffcdc3ec0ebb859b74c9ae3f1deca48b359eb7ea42f92ec8c386ce7993
+  .claude/skills/web-game-developer/SKILL.md: sha256:890705a0ebd1a273725ad2690ca4b35a3a5a7f86147bb50087552386bd8b9da6
+  .claude/skills/web-game-developer/references/architecture-and-feature-flow.md: sha256:938febc48af9101def087b4ab45844d1953449d5be055b940579d626875bf09b
+  .claude/skills/web-game-developer/references/canvas-arcade-games.md: sha256:ad56a750746d69318dcba365c2f96545a46036a24b97de01058bb13044b8f510
+  .claude/skills/web-game-developer/references/dom-grid-games.md: sha256:bc09f87f4c7656e2f88834ad9074abbd06e712af331d4954a59c1ce3bbd87d72
+  .claude/skills/web-game-developer/references/game-loop-and-input.md: sha256:fee448696f3d9551394c6f5898c59d91b26273396df12ee82234eeece8f58d04

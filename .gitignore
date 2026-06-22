@@ -9,6 +9,10 @@ apm_modules/
 /.gemini/
 /AGENTS.md
 
+# Node — template/game dependencies and build output
+node_modules/
+dist/
+
 # Editor / OS
 .idea/
 .DS_Store
