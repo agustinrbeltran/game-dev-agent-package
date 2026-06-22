@@ -52,6 +52,7 @@ rules directly onto event handlers.
 | DOM / grid / turn-based | `references/dom-grid-games.md` | Tic-Tac-Toe, 2048, Minesweeper, Connect Four, Wordle — board model, win detection |
 | Canvas / arcade | `references/canvas-arcade-games.md` | Snake, Pong, Breakout, Tetris — rendering, entities, AABB collision, spawning |
 | Architecture & feature flow | `references/architecture-and-feature-flow.md` | Adding features incrementally, scoring/levels/restart, quick tests, common asks |
+| Interview playbook | `references/interview-playbook.md` | Timeboxing a live challenge, DOM-vs-Canvas decision, feature-drop map, English talk-track |
 
 ## Non-negotiables
 
@@ -119,5 +120,5 @@ const hit = (a: Box, b: Box) =>
   a.y < b.y + b.h && a.y + a.h > b.y;
 ```
 
-Spin up a project in seconds with the bundled `templates/vite-ts-game/` starter,
-and follow `INTERVIEW_PLAYBOOK.md` for timeboxing and the verify-by-running flow.
+Spin up a project in seconds with the bundled `templates/vite-ts-game/` starter, and
+follow `references/interview-playbook.md` for timeboxing and the verify-by-running flow.

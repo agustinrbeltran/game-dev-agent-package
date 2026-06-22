@@ -16,8 +16,8 @@ work; the commands and template below remove the boilerplate.
 - [ ] Run `npm run dev` once; confirm the demo loads at `localhost:5173`.
 - [ ] Confirm the skill is active: in Claude Code, ask "what does the web-game-developer
       skill cover?" — it should reference the loop/grid/canvas/architecture guides.
-- [ ] Skim each reference in `.apm/skills/web-game-developer/references/` so you recognize
-      the patterns when they come up.
+- [ ] Skim the sibling references in this skill (game loop & input, DOM/grid, canvas/
+      arcade, architecture & feature flow) so you recognize the patterns on sight.
 - [ ] Have the Playwright MCP available (for `run-and-verify`), or be ready to verify
       by hand in the browser.
 

@@ -22,7 +22,7 @@ released feature in one place, and verify by running.
 | Prompt | `.apm/prompts/run-and-verify.prompt.md` | Start the dev server and verify in a real browser (Playwright). |
 | Prompt | `.apm/prompts/web-performance-audit.prompt.md` | Find and fix render-loop jank (60 FPS). |
 | Template | `templates/vite-ts-game/` | Vite + TypeScript starter with a clean state/update/render skeleton. |
-| Playbook | `INTERVIEW_PLAYBOOK.md` | Timeboxing, the DOM-vs-Canvas decision, feature-drop map, and an English talk-track. |
+| Playbook | `.apm/skills/web-game-developer/references/interview-playbook.md` | Timeboxing, the DOM-vs-Canvas decision, feature-drop map, and an English talk-track. |
 
 The skill is **local** (`.apm/skills/web-game-developer/`) and picked up automatically
 by `apm install` — no external or self-referential dependency.
@@ -35,7 +35,8 @@ cd templates/vite-ts-game && npm install && npm run dev   # http://localhost:517
 ```
 
 Then in Claude Code: `/scaffold-game`, `/implement-game-feature`, `/run-and-verify`.
-Read `INTERVIEW_PLAYBOOK.md` first — it's the 30-minute game plan.
+Read the playbook first (`.apm/skills/web-game-developer/references/interview-playbook.md`)
+— it's the 30-minute game plan.
 
 ## Install into another project
 
