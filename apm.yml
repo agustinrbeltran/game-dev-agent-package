@@ -1,5 +1,5 @@
 name: web-game-dev-agent-package
-version: 2.0.0
+version: 2.0.1
 description: >-
   A Web Game Developer role for AI coding agents — fast vanilla-TypeScript
   browser games on HTML5 Canvas and the DOM, covering grid/turn-based and
